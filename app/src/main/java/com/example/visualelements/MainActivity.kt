@@ -26,7 +26,8 @@ class MainActivity : ComponentActivity() {
 //                    TestLayout()
 //                    TestSizing()
 //                    ExerciseLayout()
-                    ExLayoutTemp()
+//                    ExLayoutTemp()
+                    TestText()
                 }
             }
         }
