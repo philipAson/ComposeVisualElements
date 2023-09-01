@@ -2,6 +2,7 @@ package com.example.visualelements
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
+import androidx.compose.material.Button
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -32,6 +33,7 @@ fun TestImages() {
             model = "https://upload.wikimedia.org/wikipedia/commons/5/50/Rafeiro_male.jpg",
             contentDescription = null
         )
+
     }
     
 
