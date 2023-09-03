@@ -33,8 +33,10 @@ class MainActivity : ComponentActivity() {
 //                    TestTheme()
 //                    TestImages()
 //                    TestButtons()
-                    ExerciseBuildThisLayout()
+//                    ExerciseBuildThisLayout()
 //                    ExerciseBuildThisLayoutSolution()
+//                    LazyListTest(
+                    TestScrollable()
 
                     val context = LocalContext.current
 //                    Toast.makeText(context, "hey hows it going?", Toast.LENGTH_LONG).show()

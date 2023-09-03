@@ -9,4 +9,25 @@
     <string name="user_name">Philip</string>
     <string name="ig_profile_description">I like travelling\nLearning android\nSleeping</string>
     <string name="ig_profile_button">Edit Profile</string>
+
+    <string name="lorem_ipsum_explanation">
+    Lorem Ipsum is a type of placeholder text used in the printing and typesetting industry. It is derived from a Latin text written by Cicero in 45 BCE, making it over 2,000 years old. The term "Lorem Ipsum" itself has no significant meaning; it is a corruption of the Latin word "dolorem," which means "pain" or "suffering," combined with "ipsum," which means "itself."
+
+    Purpose
+
+    The primary purpose of Lorem Ipsum is as a filler text. When creating a document or designing a web page, there\'s often a need to see how the layout will look with text before the actual content is available. This is where Lorem Ipsum comes in handy. Designers, typographers, and developers use it to populate spaces reserved for text to visualize the overall design and layout without being distracted by the actual content.
+
+    Characteristics
+
+    Lorem Ipsum is composed of a jumbled mix of Latin words and passages, arranged to mimic the distribution of letters in English. The text is intentionally nonsensical and lacks a coherent message. Its use allows the focus to remain on the visual aspects of a layout, such as font, size, and spacing, rather than the meaning of the text.
+
+    Variations
+
+    Over time, various versions of Lorem Ipsum have emerged, with slight differences in the text. These versions are sometimes used to add a touch of humor or uniqueness to a design project. Some Lorem Ipsum generators even offer themed variations, such as "Bacon Ipsum" or "Cupcake Ipsum," which use food-related text for a playful twist.
+
+    In conclusion, Lorem Ipsum serves as a valuable tool in design and typesetting, helping professionals and creators visualize and fine-tune the layout of their projects before the final content is available. Its timeless and meaningless nature makes it a universal choice for this purpose.
+</string>
+
+
+
 </resources>
