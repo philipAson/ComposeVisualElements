@@ -6,6 +6,8 @@ import android.widget.Toast
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
+
+
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
@@ -13,6 +15,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
@@ -29,21 +32,25 @@ fun ExerciseBuildThisLayout() {
         Spacer(modifier = Modifier.padding(16.dp))
         Row(
             verticalAlignment = Alignment.CenterVertically,
-            modifier = Modifier.fillMaxWidth(1f),
+            modifier = Modifier.fillMaxWidth(1f).height(150.dp),
             horizontalArrangement = Arrangement.SpaceEvenly
         ) {
 
-                Box(modifier = Modifier
-                    .size(125.dp)
-                    .background(Color.Gray, CircleShape)
-
+                 Column(modifier = Modifier
+                     .fillMaxHeight(1f),
+                     horizontalAlignment = Alignment.CenterHorizontally,
+                     verticalArrangement = Arrangement.Center
                 ) {
                     Image(
                         painter = imageResource,
                         contentDescription = null,
                         modifier = Modifier
-                            .clip(CircleShape)
-                            .fillMaxSize())
+
+                            //DOES THE TRICK I THINK...
+                            .aspectRatio(1f)
+                            .clip(CircleShape),
+                        contentScale = ContentScale.Crop
+                    )
                 }
 
             Column(horizontalAlignment = Alignment.CenterHorizontally) {

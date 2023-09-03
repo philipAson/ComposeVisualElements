@@ -34,6 +34,7 @@ class MainActivity : ComponentActivity() {
 //                    TestImages()
 //                    TestButtons()
                     ExerciseBuildThisLayout()
+//                    ExerciseBuildThisLayoutSolution()
 
                     val context = LocalContext.current
 //                    Toast.makeText(context, "hey hows it going?", Toast.LENGTH_LONG).show()
