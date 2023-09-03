@@ -38,7 +38,10 @@ class MainActivity : ComponentActivity() {
 //                    LazyListTest(
 //                    TestScrollable()
 //                    Gestures1()
-                    Gestures2()
+//                    Gestures2()
+//                    TestProgressIndicators()
+                    TestAlertDialog()
+
                     val context = LocalContext.current
 //                    Toast.makeText(context, "hey hows it going?", Toast.LENGTH_LONG).show()
                 }
