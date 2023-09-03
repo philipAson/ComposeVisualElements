@@ -36,8 +36,9 @@ class MainActivity : ComponentActivity() {
 //                    ExerciseBuildThisLayout()
 //                    ExerciseBuildThisLayoutSolution()
 //                    LazyListTest(
-                    TestScrollable()
-
+//                    TestScrollable()
+//                    Gestures1()
+                    Gestures2()
                     val context = LocalContext.current
 //                    Toast.makeText(context, "hey hows it going?", Toast.LENGTH_LONG).show()
                 }
